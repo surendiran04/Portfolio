@@ -5,7 +5,7 @@ html{
     scroll-behavior: smooth;
 }
 .banner{
-    background-image: url(/Assets/LAP.jpeg);
+    background-image: url('./Assets/LAP.jpeg');
     background-size:cover;
     background-repeat: no-repeat;
     padding:300px 0;
