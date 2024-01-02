@@ -1,0 +1,91 @@
+*{
+font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.banner{
+    background-image: url(/Assets/LAP.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:300px 0;
+}
+.w-80{
+    width:80%;
+    height:75%;
+    border-radius: 5%;
+}
+
+/*link hover*/
+
+/* .active:hover{
+  border-bottom: 2px solid white;
+  cursor:pointer;
+ 
+}
+a:active{
+    border-bottom: 2px solid white;
+} */
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    }
+    nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    }
+    nav ul li a:hover::after {
+    width: 100%;
+    }
+
+/*colour text effect*/
+.text-effect:hover{
+    text-shadow: 0 0 20px #00fffb,0 0 40px #0081bc;
+}
+/*Highlighted the name */
+div span{
+    color:red;
+}
+
+/*button*/
+.btn{
+    border:3px dotted lavender;
+    color:darkturquoise;
+}
+.btn:hover{
+    background-color:plum;
+    color:black;
+}
+
+/*input box*/
+.input:hover{
+    border: 1px lightblue;
+    box-shadow:0px 0px 0px 5px lightblue;
+}
+
+/*nav heading*/
+.animated_text h1 {
+    -webkit-text-stroke: 1px #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*border for section*/
+.bg-border{
+    border:2px solid #ffffff;
+}
+
+/*icons*/
+.icons{
+    width:5rem;
+    height:4rem;
+    font-size: 2rem;
+}
