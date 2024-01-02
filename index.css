@@ -89,3 +89,10 @@ div span{
     height:4rem;
     font-size: 2rem;
 }
+/*card-transition*/
+.card:hover {
+    transform: scale(0.95, 0.95);
+    transform-origin: center center;
+    transition: all 0.1s ease-in 0s;
+  }
+  
