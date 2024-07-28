@@ -106,3 +106,16 @@ div span{
     transform-origin: center center;
     transition: all 0.1s ease-in 0s;   
 }
+
+/* Project cards */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  .card-body {
+    background-color: black;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
